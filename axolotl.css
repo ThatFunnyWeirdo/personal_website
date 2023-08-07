@@ -1,0 +1,67 @@
+.menu {
+   
+     position: fixed;
+     background:linear-gradient(.25turn, #60ebeb 0%, #CB81EC 100%);
+     width: 100%;
+     margin-top: 0px;
+     margin-bottom: 10px;
+      top: 0px;
+     /* z-index: 10;*/
+      float:left;
+      height: 50px;
+      margin-left: -8px;
+  }
+
+  .menu p {
+    display: inline;
+     float: left;
+     color: black !important;
+     font-family: 'Cinzel Decorative', cursive;
+ }
+
+ input
+ {
+  font-size: 15px;
+  padding-left: 15px;
+  width: 10%;
+ }
+
+ hr
+ {
+  border-left: 1px solid black;
+  height: 600px;
+  position:absolute;
+  left: 50%;
+ }
+
+ #descriptive_div
+
+{
+  padding-left: 700px;
+  padding-top: 0px;
+  padding-bottom: 200px;
+}
+
+h4
+{
+  font-size: 20px;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+.div_p
+{
+  font-family: 'Mynerve', cursive;
+}
+
+h3
+{
+  color: "#3db35a";
+}
+
+#main_img
+{
+  width: 400px;
+  height: 500px;
+  padding-right: 550px;
+  padding-top: 100px;
+}

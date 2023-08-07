@@ -1,0 +1,49 @@
+.menu {
+   
+    position: fixed;
+    background:linear-gradient( .25turn, #60ebeb 0%, #CB81EC 100%);
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    top: 0px;
+    z-index: 10;
+     color: black !important;
+     height: 50px;
+     margin-left: -8px;
+ }
+ 
+ .menu p {
+   display: inline;
+    float: left;
+    color: black !important;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 15px;
+}
+
+label
+{
+ font-size: 15px;
+ padding-left: 15px;
+}
+
+hr
+{
+ border-left: 1px solid black;
+ height: 600px;
+ position:absolute;
+ left: 50%;
+}
+
+#descriptive_div
+
+{
+  padding-left: 700px;
+}
+
+#main_img
+{
+  width: 400px;
+  height: 500px;
+  padding-right: 550px;
+  padding-top: 100px;
+}

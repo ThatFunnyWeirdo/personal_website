@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding-top: 150px;
+    background-color: #EEEBEF;
+}
+
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    
+}
+
+
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+.animals_p {
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.menu {
+   
+  position: fixed;
+  background:linear-gradient(.25turn, #60ebeb 0%, #CB81EC 100%);
+  width: 100%;
+   margin-top: 0px;
+   margin-bottom: 10px;
+    top: 0px;
+    z-index: 10;
+    float:right;
+    color: black !important;
+    height: 50px;
+}
+
+ .menu p {
+        display: inline;
+         padding-right: 50px;
+         padding-top: 15px;
+         float: left;
+         color: black !important;
+         font-family: 'Cinzel Decorative', cursive;
+         font-size: 15px;
+     }
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+input {
+background: grey;
+}
+
+.item_img
+{
+    width: 300px;
+    height: 350px;
+    display: inline;
+}
+
+.product_name
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.item_div_1
+{
+    
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.item_div_2
+{
+     margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.item_div_3
+{
+     margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+#footer
+{
+    background-color: black;
+    color: white;
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+}
+
+.email_div 
+{
+    width: 300px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+@keyframes example 
+{
+    from {box-shadow: 1px 1px 38px #F4FF00}
+    to {box-shadow: 1px 1px 38px #FA67F1;}
+}
+
+.container2
+{
+    background-color: white;  
+  }
+
+  #app 
+  {
+      background-color: #EEEBEF;
+  }
+  
+  #myCarousel
+  {
+      margin-top: 30px;
+      background-color: #FFFF; 
+      width: 1200px;
+  }
+  
+  #myCarousel img
+  {
+      height: 200px;
+      margin-top: 35px;
+      width: 50%;
+      margin-right: 30px;
+  }
+  
+  .carousel-inner p
+  {
+      margin-top: 15px;
+      color : black;
+      font-size: 20px;
+      font-family: 'Cinzel Decorative', cursive;
+  }
+  
+  .main_head
+  {
+      font-family: 'Cinzel Decorative', cursive;
+      color: black;
+  }
+
+  #logo_img
+  {
+    width: 50px;
+    height: 50px;
+    float: right;
+  }
